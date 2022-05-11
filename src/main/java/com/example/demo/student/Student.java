@@ -13,7 +13,7 @@ public class Student {
     public Student() {
     }
 
-    public Student(Long id, String name, String email, LocalDate dob, Integer age) {
+    public Student(long id, String name, String email, LocalDate dob, int age) {
         this.id = id;
         this.name = name;
         this.email = email;
@@ -21,18 +21,18 @@ public class Student {
         this.age = age;
     }
 
-    public Student(String name, String email, LocalDate dob, Integer age) {
+    public Student(String name, String email, LocalDate dob, int age) {
         this.name = name;
         this.email = email;
         this.dob = dob;
         this.age = age;
     }
 
-    public Long getId() {
+    public long getId() {
         return id;
     }
 
-    public void setId(Long id) {
+    public void setId(long id) {
         this.id = id;
     }
 
@@ -60,11 +60,11 @@ public class Student {
         this.dob = dob;
     }
 
-    public Integer getAge() {
+    public int getAge() {
         return age;
     }
 
-    public void setAge(Integer age) {
+    public void setAge(int age) {
         this.age = age;
     }
 
